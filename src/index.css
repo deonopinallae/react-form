@@ -1,0 +1,45 @@
+*, *::after, *::before, html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1{
+  font-size: 20px;
+  font-weight: inherit;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+input{
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  outline: none;
+}
+button{
+  font-family: inherit;
+  font-size: inherit;
+  background-color: transparent;
+  white-space: nowrap;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+li{
+  list-style: none;
+}
+img{
+  width: 100%;
+}

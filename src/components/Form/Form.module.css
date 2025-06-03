@@ -1,0 +1,31 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    margin: auto;
+}
+.formInput {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+.formBtn{
+    border: 1px solid black;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 3px 1px gray;
+}
+.formBtn:hover{
+    box-shadow: none;
+    transform: translate(2px, 2px)
+}
+.formBtn:focus{
+    outline: rgb(192, 207, 255) 3px solid;
+}
+.error{
+    font-size: 14px;
+    color: red;
+}
