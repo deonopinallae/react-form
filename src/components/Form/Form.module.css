@@ -1,29 +1,30 @@
+
 .form{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 300px;
+    gap: 3rem;
+    width: 30rem;
     margin: auto;
 }
 .formInput {
     display: block;
     margin: auto;
-    padding: 10px;
+    padding: 1rem;
     width: 100%;
 }
 .formBtn{
     border: 1px solid black;
     width: fit-content;
     margin: 0 auto;
-    padding: 10px 20px;
-    box-shadow: 3px 3px 3px 1px gray;
+    padding: 1rem 4rem;
+    box-shadow: .5rem .5rem .5rem .1rem gray;
 }
-.formBtn:hover{
+.formBtn:active{
     box-shadow: none;
-    transform: translate(2px, 2px)
+    transform: translate(.5rem, .5rem)
 }
 .formBtn:focus{
-    outline: rgb(192, 207, 255) 3px solid;
+    outline: rgb(78, 110, 212) 5px solid;
 }
 .error{
     font-size: 14px;
